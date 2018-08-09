@@ -15,4 +15,9 @@ public class ServiceOne {
         return properties.getProp();
     }
 	
+	
+	@GetMapping("/")
+    public String serviceOne() {
+        return "I am from service one ";
+    }
 }
